@@ -2,7 +2,9 @@ import mysql.connector
 import hashlib
 import random
 import datetime
-
+import os
+# Echo testing
+print("This is the env varible for db_name:",os.environ['db_name'])
 # Set variables
 db_endpoint = 'localhost'
 db_name = 'mydatabase'
